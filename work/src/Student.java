@@ -1,10 +1,10 @@
 public class Student {
     public static void main(String[] args) {
     }
-    private String sid;//学号
-    private String name;//姓名
-    private String age;//年龄
-    private String address;//居住地
+    private String sid;
+    private String name;
+    private String age;
+    private String address;
     public Student() {
     }
     public Student(String sid, String name, String age, String address) {

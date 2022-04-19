@@ -6,12 +6,12 @@ public class StudentManager {
         while(true){
             System.out.println("请选择操作：");
             System.out.println("--------------------------");
-            System.out.println("1 添加学生");
-            System.out.println("2 删除学生");
-            System.out.println("3 修改学生");
-            System.out.println("4 查看所有学生");
-            System.out.println("5 退出");
-            System.out.println("请输入你的选择：");
+            System.out.println("        1 插入");
+            System.out.println("        2 查找");
+            System.out.println("        3 删除");
+            System.out.println("        4 修改");
+            System.out.println("        5 输出");
+            System.out.println("        6 退出");
             Scanner sc=new Scanner(System.in);
             String line = sc.nextLine();
             switch(line)
@@ -21,18 +21,21 @@ public class StudentManager {
                     addstudent(array);
                     break;
                 case "2":
+                    System.out.println("暂未实现");
+                    break;
+                case "3":
 //                    System.out.println("删除学生");
                     remove(array);
                     break;
-                case "3":
+                case "4":
 //                    System.out.println("修改学生");
                     change(array);
                     break;
-                case "4":
+                case "5":
 //                    System.out.println("查看所有学生");
                     findstudent(array);
                     break;
-                case "5":
+                case "6":
                     System.out.print("谢谢使用！");
                     System.exit(0);
             }
