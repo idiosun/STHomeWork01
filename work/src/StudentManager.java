@@ -4,7 +4,8 @@ public class StudentManager {
     public static void main(String[] args) {
         ArrayList<Student> array =new ArrayList<Student>();
         while(true){
-            System.out.println("-------------欢迎来到学生管理系统-------------");
+            System.out.println("请选择操作：");
+            System.out.println("--------------------------");
             System.out.println("1 添加学生");
             System.out.println("2 删除学生");
             System.out.println("3 修改学生");
